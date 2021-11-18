@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
+import Bottomnavbar from './bottomnavbar';
 class Bottomcomponent extends Component {
     
     render() {
@@ -19,7 +20,7 @@ class Bottomcomponent extends Component {
 
         return (
             <div>
-                <div id="bottom-toolbar" class="bottom-toolbar"></div>
+                <Bottomnavbar/>
                 <div id="popup-social"></div>
                 <div id="popup-alert"></div>  
                 <div id="popup-notifications"></div>  

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
+import Panelleft from './panelleft';
+import Panelright from './panelright';
 class Topcomponent extends Component {
     
     render() {
@@ -20,8 +22,8 @@ class Topcomponent extends Component {
         return (
             <div>
                 <div className="body-overlay"></div>
-                <div id="panel-left"></div>
-                <div id="panel-right"></div>    
+                <Panelleft />
+                <Panelright />            
             </div>
         );
     }

@@ -8,6 +8,7 @@ import Introberanda from './introberanda';
 import Fakirmiskinberanda from './fakirmiskinberanda';
 import Artikelberanda from './artikelberanda';
 import Dokumentasiberanda from './dokumentasiberanda';
+import Berandagridbantuan from './berandagridbantuan';
 class Beranda extends Component {
     
     render() {
@@ -28,15 +29,17 @@ class Beranda extends Component {
         return (
             <div>
                 <Topcomponet />
-                <div className="page page--main" data-page="sliders">
-					<div className="page__content">	
-						<Header />
+                <div className="page page--main" data-page="main">
+                		<Header />
+
+                <div className="page__content page__content--with-header page__content--with-bottom-nav">
 						<Sliderberanda />
-						<Introberanda />
+                        <Introberanda />
+                        <Berandagridbantuan />
 						<Fakirmiskinberanda />
                         <Dokumentasiberanda />
 						<Artikelberanda />
-                        <div style={{minHeight:"40px"}}></div>
+                        <div style={{minHeight:"75px"}}></div>
 					</div>
 				</div>
                 <Bottomcomponet />

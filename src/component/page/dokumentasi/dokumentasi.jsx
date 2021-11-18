@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-class Header extends Component {
-
+import Bottomcomponet from '../../bottomcomponet';
+import Subheader from '../../subheader';
+class dokumentasi extends Component {
     
     render() {
         // const banners = this.props.banner;
@@ -20,14 +21,15 @@ class Header extends Component {
 
         return (
             <div>
-                <header class="header header--page header--fixed">	
-		            <div class="header__inner">	
-			            <div class="header__icon header__icon--menu open-panel" data-panel="left"><span></span><span></span><span></span><span></span><span></span><span></span></div>
-			            <div class="header__logo header__logo--text"><img className="img-logo" src="/assets/images/logo.png" /></div>	
-			            <div class="header__icon open-panel" data-panel="right"><img src="/assets/images/icons/white/search.svg" alt="" title=""/></div>
-                    </div>
-	            </header>
-                 
+                <div className="page page--main" data-page="main" style={{transform:"translate3d(0, 0, 0)"}}>
+                		<Subheader />
+
+                <div className="page__content page__content--with-header page__content--with-bottom-nav">
+                        <h1>Dokumentasi Page</h1>
+                        <div style={{minHeight:"75px"}}></div>
+					</div>
+				</div>
+                <Bottomcomponet />
             </div>
         );
     }
@@ -39,4 +41,4 @@ const mapStatetoprops=(state)=>{
     }
   }
   
-  export default connect(mapStatetoprops)(Header);
+  export default connect(mapStatetoprops)(dokumentasi);

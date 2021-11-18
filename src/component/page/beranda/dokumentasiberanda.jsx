@@ -45,7 +45,7 @@ class dokumentasiberanda extends Component  {
         dots: true,
         infinite: false,
         speed: 500,
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1
       };
 
@@ -68,7 +68,7 @@ class dokumentasiberanda extends Component  {
                                           </button>
                                       </div>
                                       <div className="contentvideo">
-                                          <h3 className="titlevideo">Contoh vide dokumentasi</h3>
+                                          <h4 className="titlevideo">Contoh vide dokumentasi</h4>
                                           <p className="descriptionvideo">
                                               <span><a href="#"><i className="fab fa-youtube"></i> Olismix</a></span><span><i className="fas fa-calendar-alt"></i> 01-02-2022</span>
                                           </p>
@@ -84,7 +84,7 @@ class dokumentasiberanda extends Component  {
                                           </button>
                                       </div>
                                       <div className="contentvideo">
-                                          <h3 className="titlevideo">Contoh vide dokumentasi</h3>
+                                          <h4 className="titlevideo">Contoh vide dokumentasi</h4>
                                           <p className="descriptionvideo">
                                               <span><a href="#"><i className="fab fa-youtube"></i> Olismix</a></span><span><i className="fas fa-calendar-alt"></i> 01-02-2022</span>
                                           </p>
@@ -100,7 +100,7 @@ class dokumentasiberanda extends Component  {
                                           </button>
                                       </div>
                                       <div className="contentvideo">
-                                          <h3 className="titlevideo">Contoh vide dokumentasi</h3>
+                                          <h4 className="titlevideo">Contoh vide dokumentasi</h4>
                                           <p className="descriptionvideo">
                                               <span><a href="#"><i className="fab fa-youtube"></i> Olismix</a></span><span><i className="fas fa-calendar-alt"></i> 01-02-2022</span>
                                           </p>

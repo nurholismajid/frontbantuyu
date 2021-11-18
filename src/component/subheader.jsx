@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-class Header extends Component {
+import {link, Link} from 'react-router-dom';
+class subheader extends Component {
 
     
     render() {
@@ -17,17 +18,16 @@ class Header extends Component {
         //             </div>
         //       )
         //     })
-
+        
         return (
             <div>
-                <header class="header header--page header--fixed">	
-		            <div class="header__inner">	
-			            <div class="header__icon header__icon--menu open-panel" data-panel="left"><span></span><span></span><span></span><span></span><span></span><span></span></div>
-			            <div class="header__logo header__logo--text"><img className="img-logo" src="/assets/images/logo.png" /></div>	
-			            <div class="header__icon open-panel" data-panel="right"><img src="/assets/images/icons/white/search.svg" alt="" title=""/></div>
+                <header className="header header--page header--fixed">	
+		            <div className="header__inner">	
+			            <div className="header__icon"><Link to="/beranda"><img src="assets/images/icons/white/arrow-back.svg" alt="" title=""/></Link></div>
+			            <div className="header__logo header__logo--text"><img className="img-logo" src="/assets/images/logo.png" /></div>
+			            <div className="header__icon header__icon--empty-space"></div>			
                     </div>
-	            </header>
-                 
+	            </header> 
             </div>
         );
     }
@@ -39,4 +39,4 @@ const mapStatetoprops=(state)=>{
     }
   }
   
-  export default connect(mapStatetoprops)(Header);
+  export default connect(mapStatetoprops)(subheader);

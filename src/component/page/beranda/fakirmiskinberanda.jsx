@@ -39,7 +39,7 @@ class fakirmiskinberanda extends Component {
                     <div className="card">
                         <img src="/assets/images/slider3.png" alt="" style={{width:"100%"}} />
                         <div style={{marginTop:"15px"}}>
-                            <h2>Nama Penerima</h2>
+                            <h4>Nama Penerima</h4>
                             <p style={{marginTop:"-20px",fontSize:"11px"}}><strong>Usia :</strong> 40 <strong>Pekerjaan :</strong> Guru</p>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ class fakirmiskinberanda extends Component {
                     <div className="card">
                         <img src="/assets/images/slider3.png" alt="" style={{width:"100%"}} />
                         <div style={{marginTop:"15px"}}>
-                            <h2>Nama Penerima</h2>
+                            <h4>Nama Penerima</h4>
                             <p style={{marginTop:"-20px",fontSize:"11px"}}><strong>Usia :</strong> 40 <strong>Pekerjaan :</strong> Guru</p>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ class fakirmiskinberanda extends Component {
                     <div className="card">
                         <img src="/assets/images/slider3.png" alt="" style={{width:"100%"}} />
                         <div style={{marginTop:"15px"}}>
-                            <h2>Nama Penerima</h2>
+                            <h4>Nama Penerima</h4>
                             <p style={{marginTop:"-20px",fontSize:"11px"}}><strong>Usia :</strong> 40 <strong>Pekerjaan :</strong> Guru</p>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ class fakirmiskinberanda extends Component {
                     <div className="card">
                         <img src="/assets/images/slider3.png" alt="" style={{width:"100%"}} />
                         <div style={{marginTop:"15px"}}>
-                            <h2>Nama Penerima</h2>
+                            <h4>Nama Penerima</h4>
                             <p style={{marginTop:"-20px",fontSize:"11px"}}><strong>Usia :</strong> 40 <strong>Pekerjaan :</strong> Guru</p>
                         </div>
                     </div>

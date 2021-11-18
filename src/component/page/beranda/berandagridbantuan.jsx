@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import Slider from "react-slick";
 
 
-class introberanda extends Component {
+class berandagridbantuan extends Component {
     
     render() {
         // const banners = this.props.banner;
@@ -26,9 +26,21 @@ class introberanda extends Component {
 		
         return (
             <div className="content-custome">
-                <img style={styleimage} src="/assets/images/splash2.png" alt="" />
-                <h4 style={{textAlign:"center"}}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</h4>
-		    
+                <h1>"Bantuan yang sudah kami salurkan"</h1>
+            <div className="cards cards--13">
+			  <div className="card card--style-thumb">
+				  <h4 className="card__title">Makanan</h4>
+				  <p className="card__text">20 Kotak</p>
+			  </div>
+			  <div className="card card--style-thumb">
+				  <h4 className="card__title">Uang Tunai</h4>
+				  <p className="card__text">Rp 1.200.000,-</p>
+			  </div>
+			  <div className="card card--style-thumb">
+				  <h4 className="card__title">Pakaian</h4>
+				  <p className="card__text">250 Setel</p>
+			  </div>
+              </div>
             </div>
         );
     }
@@ -40,4 +52,4 @@ const mapStatetoprops=(state)=>{
     }
   }
   
-  export default connect(mapStatetoprops)(introberanda);
+  export default connect(mapStatetoprops)(berandagridbantuan);
